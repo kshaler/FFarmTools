@@ -143,7 +143,6 @@ class stochasticTurbulence:
         if ((y==None) & (j==None)):
             return np.std(self.U,axis=0) / np.mean(self.U,axis=0)
         if ((y==None) & (j!=None)):
-            print(j,k)
             return (np.std(self.U[:,j,k])/np.mean(self.U[:,j,k]))
         if ((y!=None) & (j==None)):
             uSeries = self.U[:,self.y2j(y),self.z2k(z)]
