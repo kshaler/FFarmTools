@@ -33,11 +33,11 @@ False              ChkWndFiles        Check all the ambient wind files for data 
 5                  NumTurbines        Number of wind turbines (-) [>=1]                          [last 6 columns used only for Mod_AmbWind=2]
 WT_X   WT_Y   WT_Z   WT_FASTInFile                                                               X0_High  Y0_High  Z0_High  dX_High  dY_High  dZ_High
 (m)    (m)    (m)    (string)                                                                    (m)      (m)      (m)      (m)      (m)      (m)
-6.926           -460.606        0.0    "../turbineModel/Test18_WT1.fst"           -30.0         -507.39 1.0    3.33        3.0     3.0
+16.926           -420.606        0.0    "../turbineModel/Test18_WT1.fst"           -30.0         -507.39 1.0    3.33        3.0     3.0
 0.0             0.866           0.0    "../turbineModel/Test18_WT2.fst"           -40.0		-45.03  1.0    3.33        3.0     3.0
-316.949         225.361         0.0    "../turbineModel/Test18_WT3.fst"           280.02        180.14  1.0    3.33        3.0     3.0
-473.219         381.632         0.0    "../turbineModel/Test18_WT4.fst"           433.36        336.26  1.0    3.33        3.0     3.0
-112.554         506.493         0.0    "../turbineModel/Test18_WT5.fst"            73.34        459.35  1.0    3.33        3.0     3.0
+216.949         205.361         0.0    "../turbineModel/Test18_WT3.fst"           280.02        180.14  1.0    3.33        3.0     3.0
+453.219         341.632         0.0    "../turbineModel/Test18_WT4.fst"           433.36        336.26  1.0    3.33        3.0     3.0
+132.0         406.493         0.0    "../turbineModel/Test18_WT5.fst"            73.34        459.35  1.0    3.33        3.0     3.0
 --- WAKE DYNAMICS ---
 3.0                dr                 Radial increment of radial finite-difference grid (m) [>0.0]
 50                 NumRadii           Number of radii in the radial finite-difference grid (-) [>=2]
